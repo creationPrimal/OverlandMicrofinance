@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enterprise Finance Limited — Growing With Your Enterprise</title>
+  <meta name="description" content="EFL is a Tanzanian microfinance company providing fast, flexible loans, business financing, and client training. Loans processed in 24–48 hours." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top contact bar -->
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a href="#" class="logo" aria-label="Enterprise Finance Limited">
+        <div class="logo-mark">EFL</div>
+        <div class="logo-text">
+          <span>ENTERPRISE</span>
+          <span>FINANCE</span>
+          <span>LIMITED</span>
+          <em>"growing with your enterprise"</em>
+        </div>
+      </a>
+
+      <div class="contacts">
+        <div class="contact">
+          <div class="contact-icon">☎</div>
+          <div>
+            <strong>Dar es Salaam Office</strong>
+            <span>+255 653 258 662</span>
+          </div>
+        </div>
+        <div class="contact">
+          <div class="contact-icon">☎</div>
+          <div>
+            <strong>Arusha Office</strong>
+            <span>+255 677 226 960</span>
+          </div>
+        </div>
+        <div class="contact">
+          <div class="contact-icon">✉</div>
+          <div>
+            <strong>Dodoma Office</strong>
+            <span>+255 676 567 186</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Nav -->
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Our Services</a></li>
+        <li><a href="#news">Media Center</a></li>
+        <li><a href="#careers">Careers</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#apply" class="cta-link">APPLY ONLINE</a></li>
+      </ul>
+      <div class="socials">
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Twitter">t</a>
+        <a href="#" aria-label="Instagram">ig</a>
+        <a href="#" aria-label="LinkedIn">in</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero slider -->
+  <section class="hero" id="home">
+    <div class="slides">
+      <div class="slide active" data-bg="#bcd3e0">
+        <div class="container slide-inner">
+          <div class="slide-text">
+            <p class="eyebrow">Thank You for</p>
+            <h1><span class="accent">15 Amazing</span><br/>Years</h1>
+            <p class="lead">We look forward to many more years of partnership and success together.</p>
+          </div>
+          <div class="slide-art">🎉</div>
+        </div>
+      </div>
+      <div class="slide" data-bg="#1c3d5a">
+        <div class="container slide-inner light">
+          <div class="slide-text">
+            <p class="eyebrow">Mkopo Popote</p>
+            <h1>kwa <span class="accent">Watumishi</span></h1>
+            <p class="lead">Mtumishi wa Serikali jihudumie kupitia ESS — chagua Enterprise Finance Limited.</p>
+            <div class="slide-cta">
+              <a href="#apply" class="btn btn-primary">Apply Now</a>
+              <a href="#contact" class="btn btn-ghost">Contact Us</a>
+            </div>
+          </div>
+          <div class="slide-art">💼</div>
+        </div>
+      </div>
+      <div class="slide" data-bg="#f5b400">
+        <div class="container slide-inner">
+          <div class="slide-text">
+            <p class="eyebrow">we process</p>
+            <h1>loans <span class="accent-dark">fast</span></h1>
+            <p class="lead">We process your loans within 24 to 48 hours.</p>
+            <div class="slide-cta">
+              <a href="#apply" class="btn btn-dark">Apply Online</a>
+            </div>
+          </div>
+          <div class="slide-art">⚡</div>
+        </div>
+      </div>
+      <div class="slide" data-bg="#0e7c5a">
+        <div class="container slide-inner light">
+          <div class="slide-text">
+            <p class="eyebrow">we train</p>
+            <h1>our <span class="accent">clients</span></h1>
+            <p class="lead">We give opportunities to share ideas on how to keep a strong financial plan.</p>
+            <div class="slide-cta">
+              <a href="#services" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+          <div class="slide-art">🎓</div>
+        </div>
+      </div>
+      <div class="slide" data-bg="#8e2de2">
+        <div class="container slide-inner light">
+          <div class="slide-text">
+            <p class="eyebrow">we keep</p>
+            <h1>our <span class="accent">promises</span></h1>
+            <p class="lead">It's our business to grow your business.</p>
+            <div class="slide-cta">
+              <a href="#services" class="btn btn-primary">Our Services</a>
+            </div>
+          </div>
+          <div class="slide-art">🤝</div>
+        </div>
+      </div>
+    </div>
+
+    <button class="slider-arrow prev" id="prevSlide" aria-label="Previous slide">‹</button>
+    <button class="slider-arrow next" id="nextSlide" aria-label="Next slide">›</button>
+    <div class="slider-dots" id="sliderDots"></div>
+
+    <div class="anniversary-badge">
+      <span>15</span>
+      <small>Years</small>
+    </div>
+  </section>
+
+  <!-- Pillars -->
+  <section class="pillars" id="about">
+    <div class="container pillars-grid">
+      <article class="pillar">
+        <div class="pillar-img">👩‍💼</div>
+        <h3>We are Enterprise Finance Limited</h3>
+        <p>We are the Microfinance Company providing financial solutions, skills and business connections to entrepreneurs, employees, contractors, schools and more.</p>
+        <a href="#" class="read-more">Read more →</a>
+      </article>
+      <article class="pillar">
+        <div class="pillar-img">🚀</div>
+        <h3>We are Flexible and Fast</h3>
+        <p>We act as an open cheque for clients with flexible terms based on the project, loan size and our relationship — growing some clients from 500K to 500M+.</p>
+        <a href="#" class="read-more">Read more →</a>
+      </article>
+      <article class="pillar">
+        <div class="pillar-img">💪</div>
+        <h3>We Empower People</h3>
+        <p>We train and coach our clients on managing finance and running their businesses effectively, connecting them to learning and business opportunities.</p>
+        <a href="#" class="read-more">Read more →</a>
+      </article>
+    </div>
+
+    <div class="container apply-cta">
+      <a href="#apply" class="btn btn-primary btn-lg">Apply for a Loan Online</a>
+    </div>
+  </section>
+
+  <!-- The EFL Difference -->
+  <section class="difference">
+    <div class="container difference-grid">
+      <div>
+        <span class="kicker">The EFL Difference</span>
+        <h2>Fast and Flexible Financing</h2>
+        <ul class="check-list">
+          <li>Flexible terms based on credit history, purpose, duration & cost.</li>
+          <li>Loan size depends on the nature of project, repayment ability & character.</li>
+          <li>Loan officers handle clients with high integrity and professionalism.</li>
+          <li>We embrace innovation to meet emerging client needs.</li>
+        </ul>
+        <a href="#services" class="btn btn-primary">Read More</a>
+      </div>
+      <div class="difference-card">
+        <div class="stat"><strong>24–48h</strong><span>Loan Processing</span></div>
+        <div class="stat"><strong>15+</strong><span>Years of Service</span></div>
+        <div class="stat"><strong>3</strong><span>Regional Offices</span></div>
+        <div class="stat"><strong>500M+</strong><span>Top Loan Size</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-img" style="background:linear-gradient(135deg,#1c3d5a,#3a6ea5);">💼</div>
+          <span class="service-eyebrow">Improve Your Financial Status</span>
+          <h3>Employee Loans</h3>
+          <p>For employees who are in need of working capital with flexible repayment.</p>
+          <a href="#" class="read-more">Read more →</a>
+        </article>
+        <article class="service-card">
+          <div class="service-img" style="background:linear-gradient(135deg,#0e7c5a,#3bb273);">🎓</div>
+          <span class="service-eyebrow">Towards Financial Freedom</span>
+          <h3>Client Training</h3>
+          <p>FREE training and coaching to help clients build and sustain financial discipline.</p>
+          <a href="#" class="read-more">Read more →</a>
+        </article>
+        <article class="service-card">
+          <div class="service-img" style="background:linear-gradient(135deg,#f5b400,#ff7e29);">💡</div>
+          <span class="service-eyebrow">Your Ideas: Our Financing</span>
+          <h3>Business Loans</h3>
+          <p>For entrepreneurs who need short-term financing to seize new opportunities.</p>
+          <a href="#" class="read-more">Read more →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Urgent CTA -->
+  <section class="urgent-cta" id="apply">
+    <div class="container urgent-inner">
+      <div>
+        <h2>Need Money Urgently?</h2>
+        <p>EFL is ready to help you. Visit our office or apply for a loan online.</p>
+      </div>
+      <a href="#contact" class="btn btn-dark btn-lg">Apply Now</a>
+    </div>
+  </section>
+
+  <!-- Procedure tabs -->
+  <section class="procedure">
+    <div class="container">
+      <h2 class="section-title">Loan Application Procedures</h2>
+      <div class="tabs">
+        <div class="tab-buttons" role="tablist">
+          <button class="tab-btn active" data-tab="application">Application</button>
+          <button class="tab-btn" data-tab="screening">Screening</button>
+          <button class="tab-btn" data-tab="approval">Approval</button>
+          <button class="tab-btn" data-tab="disbursement">Disbursement</button>
+        </div>
+
+        <div class="tab-panel active" id="application">
+          <div class="tab-grid">
+            <div>
+              <h3>Fill in the Application Form</h3>
+              <p>Submit the online application form on our website or visit our office with relevant documents. We review your application within one day. For a faster process, respond to all questions and check the boxes provided in the form.</p>
+            </div>
+            <div class="tab-img">📝</div>
+          </div>
+        </div>
+        <div class="tab-panel" id="screening">
+          <div class="tab-grid">
+            <div>
+              <h3>Screening Process</h3>
+              <p>The responsible officer reviews your documents and responds accordingly. Once satisfied, your application moves to the next stage. If anything is missing, we will notify you immediately with guidance.</p>
+            </div>
+            <div class="tab-img">🔍</div>
+          </div>
+        </div>
+        <div class="tab-panel" id="approval">
+          <div class="tab-grid">
+            <div>
+              <h3>Wait for the Outcome</h3>
+              <p>After passing the screening stage, you'll be informed and asked to submit the required documents. The entire process takes a maximum of three days when documents are provided on time.</p>
+            </div>
+            <div class="tab-img">✅</div>
+          </div>
+        </div>
+        <div class="tab-panel" id="disbursement">
+          <div class="tab-grid">
+            <div>
+              <h3>Receive Your Loan</h3>
+              <p>After approval, disbursement is made through your bank account or by issuing an open cheque. Depending on your bank, funds may take some hours to appear in your account.</p>
+            </div>
+            <div class="tab-img">💸</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="news">
+    <div class="container">
+      <h2 class="section-title light">Testimonials</h2>
+      <p class="section-sub">EFL understands clients’ needs and facilitates them to access fast and flexible financial services.</p>
+      <div class="testimonial-grid">
+        <article class="testimonial">
+          <p>"They have always provided us with quick loans at the lowest interests. EFL stands out because they truly care about the customer — this is really unparalleled. Thanks, EFL!"</p>
+          <div class="t-author">
+            <div class="t-avatar">AM</div>
+            <div>
+              <strong>Amani Mashauri</strong>
+              <span>CEO, Gopopote</span>
+            </div>
+          </div>
+        </article>
+        <article class="testimonial">
+          <p>"EFL is a microfinance company with a zeal for excellent service to its clients and stakeholders. Their work culture is an embodiment of professionalism and accountability."</p>
+          <div class="t-author">
+            <div class="t-avatar">JK</div>
+            <div>
+              <strong>Prof. Joseph Kahamba</strong>
+              <span>Associate Professor, Muhimbili University</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- News -->
+  <section class="news" id="careers">
+    <div class="container">
+      <h2 class="section-title">News & Events</h2>
+      <div class="news-grid">
+        <article class="news-card">
+          <div class="news-img" style="background:linear-gradient(135deg,#8e2de2,#4a00e0);">👩‍🎓</div>
+          <div class="news-body">
+            <span class="news-tag">Events · Social</span>
+            <h3>Happy International Women's Day 2026</h3>
+            <p>We celebrated diversity, professionalism, and equal opportunity across our organization.</p>
+          </div>
+        </article>
+        <article class="news-card">
+          <div class="news-img" style="background:linear-gradient(135deg,#0e7c5a,#3bb273);">🏆</div>
+          <div class="news-body">
+            <span class="news-tag">15 Years · Events</span>
+            <h3>15 Years Anniversary & EFL Sports Bonanza 2025</h3>
+            <p>A milestone celebration with our staff, clients, and partners across Tanzania.</p>
+          </div>
+        </article>
+        <article class="news-card">
+          <div class="news-img" style="background:linear-gradient(135deg,#f5b400,#ff7e29);">🦁</div>
+          <div class="news-body">
+            <span class="news-tag">Anniversary · Retreat</span>
+            <h3>Mikumi National Park Retreat 2025</h3>
+            <p>Reflecting on 15 years of growth in the heart of Tanzania's wilderness.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promise -->
+  <section class="promise" id="contact">
+    <div class="container promise-inner">
+      <span class="kicker light">The EFL Promise</span>
+      <p class="promise-text">"Our drive to quality service, integrity, progressive thinking and creative approach is what makes us stand out from the crowd. We are always on the path of continuous growth and innovation."</p>
+      <strong>– Jacqueline Lujuo –</strong>
+      <span class="promise-role">Managing Director</span>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo-mark big">EFL</div>
+        <p>Enterprise Finance Limited — A Tanzanian microfinance company growing with your enterprise.</p>
+      </div>
+      <div>
+        <h4>Offices</h4>
+        <p>Dar es Salaam · +255 653 258 662</p>
+        <p>Arusha · +255 677 226 960</p>
+        <p>Dodoma · +255 676 567 186</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#apply">Apply Online</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div>
+        <h4>Newsletter</h4>
+        <form id="newsletterForm" class="newsletter">
+          <input type="email" required placeholder="your@email.com" />
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+        <p class="form-msg" id="formMsg"></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        © <span id="year"></span> Enterprise Finance Limited. All rights reserved. · Design inspired by efl.co.tz
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
