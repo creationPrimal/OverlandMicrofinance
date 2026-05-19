@@ -72,6 +72,10 @@ img { max-width: 100%; display: block; }
 .logo-mark.big { width: 70px; height: 70px; font-size: 22px; margin-bottom: 14px; }
 .logo-text { display: flex; flex-direction: column; line-height: 1.05; font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 1px; }
 .logo-text em { font-family: 'Open Sans', serif; font-style: italic; font-weight: 400; font-size: 11px; color: var(--muted); margin-top: 4px; letter-spacing: 0; }
+.logoicon {
+  height: 50px; width: auto;
+}
+
 
 .contacts { display: flex; gap: 28px; flex-wrap: wrap; }
 .contact { display: flex; align-items: center; gap: 12px; font-size: 13px; }
