@@ -60,18 +60,6 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
   });
 });
 
-// ===== Newsletter form =====
-const form = document.getElementById('newsletterForm');
-const msg = document.getElementById('formMsg');
-form?.addEventListener('submit', (e) => {
-  e.preventDefault();
-  const email = form.querySelector('input').value.trim();
-  if (!email) return;
-  msg.textContent = `✓ Thanks! ${email} has been subscribed.`;
-  form.reset();
-  setTimeout(() => msg.textContent = '', 5000);
-});
-
 // ===== Year =====
 document.getElementById('year').textContent = new Date().getFullYear();
 
